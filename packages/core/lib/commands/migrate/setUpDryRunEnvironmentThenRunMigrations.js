@@ -1,6 +1,6 @@
 const { Environment } = require("@truffle/environment");
 const Artifactor = require("@truffle/artifactor");
-const Resolver = require("@truffle/resolver");
+const { Resolver } = require("@truffle/resolver");
 const copy = require("../../copy");
 const tmp = require("tmp");
 tmp.setGracefulCleanup();
